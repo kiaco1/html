@@ -1,0 +1,347 @@
+body {
+    padding: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF3998;
+}
+
+.purple-text {
+    color: #FF3998;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #FF3998;
+}
+
+#container {
+    display: flex;
+    padding-bottom: 20px;
+    margin-right: -30px;
+}
+
+#container div img {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+}
+
+#container div {
+    width: 50%;
+}
+
+p, ul {
+    font-family: 'Exo 2', sans-serif;
+}
+
+button {
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 3px solid #FF3998;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+#picture-background {
+    background-image: url(assets/background.svg);
+    width: 100%;
+    margin-left: -30px;
+    padding: 0px 30px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    background-size: cover;
+    background-position: -10px;
+}
+
+.pb-h3 {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#company-logo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#company-logo li img {
+    width: 80%;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#nfts-avatars {
+    margin: 0;
+    padding: 0;
+}
+
+.nft-description {
+    display: flex;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-description-2 {
+    padding: 15px;
+}
+
+.nft-description-2 li {
+    padding-bottom: 8px;
+}
+
+.nft-description-2 li :last-child {
+    padding-bottom: -8px;
+}
+
+.nft-description-right {
+    text-align: right;
+}
+
+
+ul {
+    padding: 0;
+}
+
+.nft {
+    width: 100%;
+}
+
+.nft-series {
+    color: #FF8039;
+    font-size: 0.85rem;
+}
+
+.nft-name {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nft-code-time, .copyright {
+    color: #868686;
+}
+
+.avatar {
+    padding-bottom: 15px;
+}
+
+#green-nft {
+    display: flex;
+    overflow: hidden;
+    margin-right: -30px;
+    border-bottom: 2px solid black;
+    margin-bottom: 45px;
+}
+
+#green-nft div img {
+    height: 350px;
+    right: 0;
+    bottom: 0;
+}
+
+#social {
+    display: flex;
+}
+
+.social-style img {
+    width: 20px;
+    padding-right: 15px;
+}
+
+.social-style {
+    padding-bottom: 20px;
+}
+
+#flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flex-footer div {
+    width: 50%;
+}
+
+.list-items {
+    line-height: 1.6;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width:500px) {
+    #container {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+    }
+
+    #flex-nav ul {
+        display: flex;
+    }
+
+    #flex-nav ul li {
+        padding-right: 10px;
+    }
+
+    #container div img {
+        height: 34vh;
+    }
+
+    #container-child-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container-child-1 h4 {
+        margin-bottom: -2vh;
+    }
+
+    #container-child-1 p {
+        margin-top: -1vh;
+    }
+
+    #container-child-1 button {
+        width: 150px;
+    }
+
+    #company-logo li img {
+        width: 8vw;
+
+    }
+
+    #company-logo {
+        grid-template-columns: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #nfts-avatars {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+    }
+
+    .nft {
+        object-fit: contain;
+    }
+
+    .pb-h3 {
+        font-size: 3rem;
+    }
+
+    .nft-series {
+        font-size: 0.9vh;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .nft-name {
+        font-size: 1.4vh;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .nfts-avatars {
+        height: 50vh;
+        overflow: hidden;
+    }
+
+    .avatar {
+        padding-right: 1vw;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #container {
+        width: 70vw;
+    }
+
+    .font {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #picture-background {
+        padding: 30px;
+        border-radius: 2vh;
+        background-position: 0px;
+    }
+
+    #pb-container {
+        padding: 30px;
+    }
+
+    #ff-parent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-width {
+        width: 15vw;
+    }
+
+    .container-social {
+        flex-direction: column;
+    }
+
+    .ff-child {
+        flex-direction: column;
+        padding-left: 7vw;
+        text-align: top;
+    }
+
+    #flex-footer {
+        flex-wrap: unset;
+    }
+
+    .ff-child h4 {
+        margin: 0;
+    }
+
+    #nft-copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+}
